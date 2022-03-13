@@ -4,28 +4,28 @@ import "./Card.css";
 function Card({ title, imgeUr, body }) {
   const arr = [
     {
-      src: "www.google.com",
-      desc: "",
+      src: "https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg",
+      desc: "Russia faces brain drain as thousands flee abroad",
       href:"#",
     },
     {
-      src: "www.google.com",
-      desc: "",
+      src: "https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg",
+      desc: "Russia faces brain drain as thousands flee abroad",
       href:"#",
     },
     {
-      src: "www.google.com",
-      desc: "",
+      src: "https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg",
+      desc: "Russia faces brain drain as thousands flee abroad",
       href:"#",
     },
     {
-      src: "www.google.com",
-      desc: "",
+      src: "https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg",
+      desc: "Russia faces brain drain as thousands flee abroad",
       href:"#",
     },
     {
-      src: "www.google.com",
-      desc: "",
+      src: "https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg",
+      desc: "Russia faces brain drain as thousands flee abroad",
       href:"#",
     },
   ];
@@ -35,8 +35,8 @@ function Card({ title, imgeUr, body }) {
       <div className="continer">
         {arr.map((currElem)=>{return(
         <div className="card-container">
-          <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg" alt="the_card_news" />
-          <a href="#">Russia faces brain drain as thousands flee abroad</a>
+          <img src={currElem.src} alt="the_card_news" />
+          <a href={currElem.href}>{currElem.desc}</a>
         </div>
         );})}
       </div>
