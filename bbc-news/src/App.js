@@ -10,12 +10,8 @@ function App() {
   return (
     <div className="App">
        <Header />
-       <Homesection />
-       <h1>NEWS</h1>
-       <Card  title='Card Title'
-     imgeUrl='https://www.bbc.com/news/world-europe-60687203'
-     body=''
-      />
+       <Homesection /> 
+       
   <News />
     </div>
   );
