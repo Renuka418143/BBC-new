@@ -1,19 +1,20 @@
 import "./App.css";
 import Header from "./Header/Header";
 import Footer from "./footer";
+import Home from "./Home";
 import Card from "./Header/Card";
-import Home from "./Header/Homesection";
-import NEWS from "./Header/News";
+import News from "./sections/News";
+import Welcome from "./sections/Welcome";
 import Homesection from "./Header/Homesection";
-import News from "./Header/News";
+import Sport from "./sports";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Home/>
       <Homesection />
-
       <News />
+      <Sport/>
       <Footer/>
     </div>
   );
