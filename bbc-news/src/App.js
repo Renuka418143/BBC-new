@@ -1,7 +1,7 @@
 import "./App.css";
+import "./9038-BBCReithSans_Rg.e3c4ef29 2.ttf"
 import Header from "./Header/Header";
 import Footer from "./footer";
-
 import Card from "./Header/Card";
 import Must from "./Header/Must";
 import Around from "./Header/Around";

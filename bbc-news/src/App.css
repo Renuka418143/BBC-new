@@ -1,7 +1,17 @@
+*{
+  font-family: 'ReithSans';
+}
 .App {
   margin: 10px 0px;
   padding: 0PX;
   box-sizing: border-box;
+  padding: 0px 1rem;
+}
+@font-face {
+  font-family: "ReithSans";
+  src: local("ReithSans"),
+    url("./9038-BBCReithSans_Rg.e3c4ef29 2.ttf") format("truetype");
+  font-weight: normal;
 }
 .h1{
   color: red;
