@@ -1,5 +1,6 @@
 .main-header{
     display: flex;
+    
     }
     .bbc{
         display: flex;
@@ -12,10 +13,16 @@
         background: black;
         color: white;
         margin-right: 3px;
-        padding-left: 5px;
-        font-size: 1.8rem;
+        padding-left: 2px;
+        font-size: -1rem;
     
     }
+    div{
+        margin-top: 8px;
+        
+
+    }
+    
     .signin{
         margin-left:3rem;
     }
@@ -35,22 +42,45 @@
         margin: -1rem;
     }
     .second-header{
-        margin-top: 3rem;
+        margin-top: 1rem;
         background: #B80000;
         padding: 10px 0px;
+        
     
     }
     .news{
-        margin-left: 3%;
+        margin-left: -0.2%;
         color: white;
+        font-size: 40px;
+        margin-left: 30px;
+        font-weight: bold;
+        
+        
+        
     }
     .ui-list{
         display: flex;
         margin-left: -13px;
         color: white;
+        margin-left: 15px;
+        
+        
+        
     }
     .ui-list li{
         list-style: none;
         margin: 0px 20px;
+        text-align: justify;
+        
     
     }
+    .ui-list li:hover{
+        list-style: none;
+        text-decoration: none;
+        
+        border-bottom: 5px solid white;
+        color: white;
+    }
+    
+    
+    

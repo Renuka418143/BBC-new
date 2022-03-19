@@ -1,36 +1,47 @@
 import React from "react";
 import "./Card.css";
 
+import cp from './img/cp.jpg'
+import cp2 from './img/cp2.jpg'
+import cp4 from './img/cp4.jpg'
+import cp3 from './img/cp3.jpg'
+import cp5 from './img/cp5.jpg'
+
+
+
+
 function Card({ title, imgeUr, body }) {
   const arr = [
     {
-      src: "https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg",
-      desc: "Russia faces brain drain as thousands flee abroad",
-      href:"#",
+      src: cp,
+      desc: "Russians grieve for fallensoldiers  mounts and Putin attacks",
+      href:"https://www.bbc.com/news/world-europe-60769509",
     },
     {
-      src: "https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg",
-      desc: "Russia faces brain drain as thousands flee abroad",
-      href:"#",
+      
+      src: cp4,
+      desc: "What does Putin want and will Russia end its war?",
+      href:"https://www.bbc.com/news/world-europe-56720589",
     },
     {
-      src: "https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg",
-      desc: "Russia faces brain drain as thousands flee abroad",
-      href:"#",
+      src: cp2,
+      desc: "Civilian toll mounts and Putin attacks 'traitors'",
+      href:"https://www.bbc.com/news/world-europe-60769514",
     },
     {
-      src: "https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg",
-      desc: "Russia faces brain drain as thousands flee abroad",
-      href:"#",
+      src: cp3,
+      desc: "Russian-occupied city stays angry and defiant",
+      href:"https://www.bbc.com/news/world-60769318",
     },
     {
-      src: "https://ichef.bbci.co.uk/news/976/cpsprodpb/3374/production/_123627131_georgia2.jpg",
-      desc: "Russia faces brain drain as thousands flee abroad",
-      href:"#",
+      src: cp5,
+      desc: "Tracking the Russian invasion of attcks",
+      href:"https://www.bbc.com/news/world-europe-60506682",
     },
   ];
   return (
     <>
+
       <div className="the_line"></div>
       <div className="continer">
         {arr.map((currElem)=>{return(
@@ -46,26 +57,3 @@ function Card({ title, imgeUr, body }) {
 
 export default Card;
 
-{
-  /* <div className='image-container'>
-  <img src={imgeUr} alt=''/>
-  </div>
-<div className='card-container-horizental'>
-<div className='card-title'>
-<h4>{title} bbc news report todays  updates </h4>
-</div>
-
-<div className='card-body'>
-<p>{body} am sat in a cavernous hall in a large hotel on the southern coast of Turkey. The room is packed with hundreds of journalists awaiting the arrival of the Russian Foreign Minister, Sergei Lavrov.</p>
-</div>
-</div>
-<br></br>
-<div className='btn'>
-  <button>
-    <a>
-      view more
-    </a>
-  </button>
-</div>
-<div></div> */
-}

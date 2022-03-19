@@ -1,0 +1,38 @@
+.text1{
+    position: absolute;
+    left:80px;
+    top: 300px;
+    color: white;
+    width: 500px;
+}
+.text2{
+    position: absolute;
+    top: 190px;
+    
+    color: white;
+    width:250px;
+
+}
+.text3{
+    position: absolute;
+    top:370px;
+    color: white;
+    width: 250px;
+}
+.text4{
+    position: absolute;
+    left: 90px;
+    top: 2200px;
+    color: white;
+    width: 600px;
+}
+.text5{
+    position: absolute;
+    left: 580px;
+    top: 3400px;
+    color: white;
+    width: 800px;
+}
+.hr{
+    border-bottom: 2px solid rgb(96, 99, 99);;
+}

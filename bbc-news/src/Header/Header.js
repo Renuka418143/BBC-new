@@ -3,46 +3,25 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <div className="main-header">
-                <div className="bbc">
-                    <h1>B</h1>
-                    <h1>B</h1>
-                    <h1>C</h1>
-                </div>
-                <div className="signin"> <h6>Sign in</h6></div>
-                <div className="list">
-                    <p>Home</p>
-                    <p>News</p>
-                    <p>Sport</p>
-                    <p>Reel</p>
-                    <p>Worklife</p>
-                    <p>Travel</p>
-                    <p>Future</p>
-                    <p>Culture</p>
-                    <p>Music</p>
-                    <p>More</p>
-
-
-                </div>
-            </div>
             <hr className="line" />
             <div className="second-header">
                 <div className="news "><h1>NEWS</h1></div>
                 <div >
                     <ul className="ui-list">
-                        <li>Home</li>|<li>War in Ukraine</li>
-                        <li>Caronavirus</li>|
-                        <li>Climate</li>|
-                        <li>Video</li>|
-                        <li>World</li>|
-                        <li>Asia</li>|
-                        <li>UK</li>|
-                        <li>Business</li>|
-                        <li>Tech</li>|
-                        <li>Science</li>|
-                        <li>Stories</li>|
-                        <li>Health</li>|
-                        <li>More</li>|
+                        <li>Home</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>War in Ukraine</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>Caronavirus</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>Climate</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>Video</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>World</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>Asia</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>UK</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>Business</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>Tech</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>Science</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>Stories</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>Health</li><div  class="bg-white h-4 w-0.5"> </div>
+                        <li>More</li><div  class="bg-white h-4 w-0.5"> </div>
 
 
 
@@ -50,6 +29,7 @@ const Header = () => {
                 </div>
             </div>
         <div></div>
+        
         </div>
 
     )

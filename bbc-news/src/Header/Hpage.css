@@ -1,0 +1,13 @@
+.text{
+    text-align: justify;
+    font-size: 50px;
+    bottom: 50px;
+}
+.text1{
+    text-align-last:left;
+
+}
+.img{
+    margin-left: 380px;
+    border-top: 40px;
+}

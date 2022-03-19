@@ -1,0 +1,33 @@
+
+.img{
+    float: right;
+}
+li:hover{
+    text-decoration: underline;
+    color: rgb(4, 87, 87);
+
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+   
+    
+    
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h4:hover{
+    text-decoration: underline;
+    color: rgb(4, 87, 87);
+}
+p{
+    text-align: justify;
+   
+}
+a{
+    font-size: smaller;
+
+    
+}

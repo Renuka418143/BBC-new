@@ -1,20 +1,52 @@
 import "./App.css";
 import Header from "./Header/Header";
 import Footer from "./footer";
-import Home from "./Home";
+
 import Card from "./Header/Card";
-import News from "./sections/News";
-import Welcome from "./sections/Welcome";
-import Homesection from "./Header/Homesection";
-import Sport from "./sports";
+import Must from "./Header/Must";
+import Around from "./Header/Around";
+import Page from "./Header/Page";
+import Hsection from "./Header/Hsection";
+import Fullstory from "./Header/Fullstory";
+import Longreads from "./Header/Longreads";
+import Sport from "./Header/Sport";
+import Section from "./Header/Section";
+import Home from "./Header/Home";
+
+
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      <Homesection />
-      <News />
-      <Sport/>
+    <Home/>
+    <Header />
+    <br />
+    <br />
+    <br />
+    <br />
+    
+    <br />
+    <Page />
+  
+      
+    
+     <Card />
+     <Hsection />
+     <Section />
+<Must />
+ <Fullstory />
+ <Longreads />
+ <Around />
+ <Sport />
+ 
+ 
+
+   
       <Footer/>
     </div>
   );
